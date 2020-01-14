@@ -5,7 +5,7 @@ Created on Sun Jul 23 03:24:21 2017
 @author: JanFreixa
 
 THIS TRAINER IS BASED ON Pictures_Trainer_170725
-it uses a the trained model to filter the creations.
++ uses a trained model to filter the creations.
 
 """
 
@@ -78,7 +78,7 @@ def RandomPic():
             canvas [0:vert[0], 0:hori[0]] = 0
             canvas [vert[1]:99, hori[1]:99] = 0
 
-        #marconegro    
+        # marconegro    
         canvas[0,:]=0
         canvas[99,:]=0
         canvas[:,0]=0
